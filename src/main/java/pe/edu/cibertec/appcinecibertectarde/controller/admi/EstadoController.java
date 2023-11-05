@@ -30,7 +30,7 @@ model.addAttribute("listaestados",estadoService.listarEstado());
     }
     @GetMapping("/listar")
     @ResponseBody
-    public List<Estado> ListarEstado(){
+    public List<Estado> listarEstados(){
         return estadoService.listarEstado();
     }
     @DeleteMapping("/eliminar")
